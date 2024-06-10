@@ -1,0 +1,35 @@
+
+.親{
+	/* 背景色を薄い青色にする*/
+	background-color: lightblue;
+
+	/* ↓ 内側の上右下左に20pxずつ余白をつくる */
+	padding: 20px 20px 20px 20px;
+
+& .子{
+	/* 背景色を濃い青色にする*/
+	background-color: steelblue;
+	}
+}
+
+/* * * 縦並び * * */
+.動物{
+	/* ↓ブロックを要素化する */
+	display: block;
+	
+	margin: 0px auto 0px auto;
+}
+
+.背景{
+	background-color: lavender;
+  padding: 20px;
+	
+	color: navy;
+	font-size: 24px;
+	font-weight: bold;
+
+& .火山 {
+	     width: 100%;
+	     display: block;
+	}
+}	 
